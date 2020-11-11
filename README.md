@@ -1,4 +1,4 @@
-##Monthly Break Down Query
+# Monthly Break Down Query
 
 Goal: Create a single query which will return a per month breakdown of successful and failed events for the entire month as well as a per user break down. Desired effect would look like so:
 
@@ -22,7 +22,7 @@ Goal: Create a single query which will return a per month breakdown of successfu
 }
 ```
 
-#Setup
+## Setup
 
 Open your terminal in the repo and copy and paste:
 
@@ -34,7 +34,7 @@ cd src;
 ./manage.py migrate;
 ```
 
-#Running
+## Running
 Run `./manage.py test` inside of the `src/` folder after setting up.
 
 The query along with all the dummy data you need is located in `src/history/tests.py`.
